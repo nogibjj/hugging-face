@@ -1,7 +1,10 @@
+from transformers import pipeline
 import gradio as gr
 
-def greet(name):
-    return "Hello " + name + "!!"
+model = pipeline("summarize")
 
-iface = gr.Interface(fn=greet, inputs="text", outputs="text")
-iface.launch()
+def predict(prompt):
+    summary = model(prompt)[0]["summarize_text"]
+    return summary
+
+gr.Interface(fn=predict, inputs="text", outputs="text").launch()
