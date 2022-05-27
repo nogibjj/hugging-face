@@ -15,5 +15,5 @@ jobs:
           fetch-depth: 0
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF }}
+          HF: ${{ secrets.HF }}
         run: git push https://noahgift:$HF@huggingface.co/spaces/demo main
