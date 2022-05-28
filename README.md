@@ -1,3 +1,5 @@
+[![Sync to Hugging Face hub](https://github.com/nogibjj/hugging-face/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/hugging-face/actions/workflows/main.yml)
+
 ---
 title: Demo
 emoji: 🌖
@@ -10,7 +12,6 @@ pinned: false
 license: cc
 ---
 
-[![Sync to Hugging Face hub](https://github.com/nogibjj/hugging-face/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/hugging-face/actions/workflows/main.yml)
 [Try Demo Text Summarization Here](https://huggingface.co/spaces/noahgift/demo)
 
 
