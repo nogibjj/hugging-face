@@ -21,3 +21,5 @@ license: cc
 
 
 ## References
+
+[Watch YouTube Walkthrough](https://youtu.be/VYSGjUa5sc4)
