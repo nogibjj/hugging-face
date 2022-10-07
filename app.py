@@ -5,8 +5,6 @@ import gradio as gr
 model = pipeline(
     "summarization",
     model="sshleifer/distilbart-cnn-12-6",
-    tokenizer="sshleifer/distilbart-cnn-12-6",
-    framework="tf",
     revision="a4f8f3e",
 )
 
