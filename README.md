@@ -21,5 +21,5 @@ license: cc
 
 
 ## References
-
 [Watch YouTube Walkthrough](https://youtu.be/VYSGjUa5sc4)
+read more on github-actions with HF- https://huggingface.co/docs/hub/spaces-github-actions
